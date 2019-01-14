@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SgcBackendApplication {
 
-	private static final Logger logger = LogManager.getLogger(SgcBackendApplication.class);
+//	private static final Logger logger = LogManager.getLogger(SgcBackendApplication.class);
 
 	public static void main(String[] args) {
 		SpringApplication.run(SgcBackendApplication.class, args);
