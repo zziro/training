@@ -34,6 +34,7 @@ public class ClienteServiceImpl implements ClienteService {
 
 		if (tipoClienteList.size() > 0) {
 			logger.info("[INFO] - Listing Clients" + tipoClienteList);
+//			System.out.println();
 			return tipoClienteRepository.findAll();
 		} else {
 			return null;
